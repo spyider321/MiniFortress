@@ -1,0 +1,350 @@
+# Use a value of -1 to give the players infinite balls or extras. If you insert a not possible value/wrong value in a section the plugin will use the default value or the nearest possible value (Example: your value at section balls: -3 -> plugin will use -1). 1 Tick = 1/20 seconds.
+Server:
+  Version Check: true
+  Metrics: true
+Paintball:
+  AFK Detection:
+    enabled: true
+    'Movement Radius around Spawn (keep in mind: knockbacks, pushing, waterflows, falling, etc)': 5
+    Amount of Matches: 3
+  Language:
+    File Name: enUS
+    File Encoding: utf-8
+  UUID Conversion:
+    Online Mode: true
+    Use UUIDCollector data: false
+    Use local player data: true
+  No Permissions: false
+  Debug: false
+  VoteListener:
+    enabled: true
+    Cash: 100
+  Auto Lobby: false
+  Auto Team: false
+  Points per Kill: 2
+  Points per Hit: 1
+  Points per Team-Attack: -1
+  Points per Win: 5
+  Points per Round: 1
+  Cash per Kill: 10
+  Cash per Hit: 0
+  Cash per Win: 10
+  Cash per Round: 0
+  Vault Rewards:
+    enabled: false
+    Money per Kill: 5.0
+    Money per Hit: 1.0
+    Money per Win: 20.0
+    Money per Round: 0.0
+  Ball speed multi: 2.5
+  Colored listnames: true
+  Chat:
+    Colored Message: true
+    Colored Name: false
+    Changes only visible for Paintballers: true
+    Format:
+      Use alternate chat format: false
+      Alternate chat format: '&6%s&7: &f%s'
+  Ranks:
+    Chat Prefix:
+      enabled: true
+    Lobby Armor: true
+  Scoreboards:
+    Lobby: true
+    Match: true
+  Arena Rotation:
+    Random Rotation: true
+    Arena Voting:
+      enabled: true
+      Number of Vote Options (at least 2): 4
+      Random Arena Option: true
+      Broadcast Options again at Countdown Time: 15
+      End Voting at Countdown Time: 5
+  Only Random: false
+  Auto Random: true
+  World Mode:
+    enabled: false
+    worlds:
+    - paintball
+  Auto Spec Lobby: false
+  Effects: true
+  Teleport Fix: true
+  Block teleports by commands: true
+  Use XP Bar: true
+  Command Signs:
+    enabled: true
+    Command Sign Identifier: '[Paintball]'
+    Ignore Shop Disabled: true
+  Allowed Commands:
+  - /list
+  - /msg
+  - /m
+  - /r
+  - /whisper
+  - /tell
+  - /login *
+  - /register *
+  Blacklist:
+    Enabled: false
+    Admin Override: true
+    Commands:
+    - /ptp {player}
+    - /tp {args} {player}
+    - /tp {player} {args}
+    - /tphere {player}
+  Tags:
+    enabled: true
+    colored: true
+    invisible: true
+    remaining invisible: true
+  Melodies:
+    enable: true
+    delay: 20
+    win:
+      file: win
+      nbs: false
+    defeat:
+      file: defeat
+      nbs: false
+    draw:
+      file: draw
+      nbs: false
+  Gifts:
+    enabled: true
+    onSpawnChance: 5.0
+    wishes: true
+    wishes text: '&cblablubbabc&5, &cAlphaX &5and &cthe server team &5are wishing
+      you a lot of fun!'
+    wishes delay in minutes: 60
+    gifts:
+      '0':
+        message: Hope you have luck with these balls!
+        id: 332
+        subid: 0
+        amount: 50
+        chance: 20.0
+      '1':
+        message: Blind them with these!
+        id: 370
+        subid: 0
+        amount: 2
+        chance: 10.0
+      '2':
+        message: Confuse them with these!
+        id: 375
+        subid: 0
+        amount: 2
+        chance: 10.0
+      '3':
+        message: May these grenades be with you!
+        id: 344
+        subid: 0
+        amount: 2
+        chance: 5.0
+      '4':
+        message: Some explosives for you!
+        id: 341
+        subid: 0
+        amount: 2
+        chance: 5.0
+      '5':
+        message: I knew you ever wanted to be a sneaky killer!
+        id: 390
+        subid: 0
+        amount: 2
+        chance: 10.0
+      '6':
+        message: Give them hell with these rocket launchers!
+        id: 356
+        subid: 0
+        amount: 2
+        chance: 10.0
+      '7':
+        message: I knew you ever wanted to order a airstrike at least once!
+        id: 280
+        subid: 0
+        amount: 1
+        chance: 5.0
+      '8':
+        message: Support from orbit waits for your order!
+        id: 369
+        subid: 0
+        amount: 1
+        chance: 5.0
+      '9':
+        message: Take this weapon!
+        id: 275
+        subid: 0
+        amount: 1
+        chance: 5.0
+      '10':
+        message: I got some more gifts for you!
+        id: 54
+        subid: 0
+        amount: 2
+        chance: 5.0
+      '11':
+        message: This comerade will fight for you!
+        id: 86
+        subid: 0
+        amount: 1
+        chance: 3.0
+      '12':
+        message: This weapon comes fresh from production!
+        id: 382
+        subid: 0
+        amount: 1
+        chance: 3.0
+      '13':
+        message: No one can hide from your view!
+        id: 398
+        subid: 0
+        amount: 1
+        chance: 2.0
+      '14':
+        message: You had no luck this time :(
+        id: 0
+        subid: 0
+        amount: 0
+        chance: 2.0
+  Lobby join:
+    Join Delay:
+      Time in Seconds: 5
+    Checks:
+      Inventory: false
+      Inventory Save: true
+      Gamemode: false
+      Creative-Fly-Mode: false
+      Burning, Falling, Immersion: true
+      Health: false
+      FoodLevel: false
+      Effects: false
+  Match:
+    Damage:
+      FallDamage: false
+      Other Damage: true
+    Allow Melee: true
+    Melee Damage: 1
+    Lives: 1
+    Respawns: 3
+    Balls: 50
+    Minimum players: 2
+    Maximum players: 1000
+    Countdown:
+      Time: 20
+      Delay: 10
+    Countdown Round Start:
+      Time: 5
+    Round Timer:
+      Time (at least 30): 180
+    Spawn Protection Seconds: 3
+  Arena:
+    Disabled Arenas: []
+  Extras:
+    Grenade:
+      enabled: true
+      Explosion-Time-Radius in Ticks: 60
+      Speed multi: 1.5
+      Amount: 0
+      Shrapnel Speed: 2.0
+    Grenade Mark 2:
+      enabled: true
+      Explosion-Time-Radius in Ticks: 60
+      Speed multi: 1.5
+      Seconds Until Explosion: 2
+      Shrapnel Speed: 2.0
+    Flashbang:
+      enabled: true
+      Speed multi: 1.5
+      Flash Range: 5.5
+      Blindness Duration in Seconds: 7
+      Confusion Duration in Seconds: 8
+      Slowness Duration in Seconds: 2
+      Seconds Until Explosion: 2
+    Concussion Nade:
+      enabled: true
+      Speed multi: 1.5
+      Concussion Range: 7.0
+      Blindness Duration in Seconds: 0
+      Confusion Duration in Seconds: 12
+      Slowness Duration in Seconds: 10
+      Seconds Until Explosion: 2
+    Airstrike:
+      enabled: true
+      Height: 15
+      Range (half): 30
+      Bombs: 15
+      Amount: 0
+      Match Limit: 3
+      Player Limit: 1
+    Turret:
+      enabled: true
+      angleMin (min -90): -45
+      angleMax (max 90): 45
+      calculated ticks: 100
+      calculated range x: 100
+      calculated range y (half): 50
+      shots per salve: 10
+      cooldown in seconds: 2
+      lives: 10
+      Match Limit: 15
+      Player Limit: 3
+    Rocket:
+      enabled: true
+      Range in Seconds: 4
+      Speed Multi: 1.5
+      Explosion-Time-Radius in Ticks: 60
+      Match Limit: 100
+      Player Limit: 25
+    Mine:
+      enabled: true
+      Check for Hallways: true
+      Range: 4.0
+      Explosion-Time-Radius in Ticks: 60
+      Match Limit: 50
+      Player Limit: 10
+    Shotgun:
+      enabled: true
+      Angle1: 5
+      Angle2: 10
+      AngleVertical: 0
+      Speedmulti: 1.3
+      Needed Ammo: 5
+    Pumpgun:
+      enabled: true
+      Bullets: 10
+      Spray (higher number means less spray): 3.5
+      Speedmulti: 1.3
+      Needed Ammo: 10
+    Sniper:
+      enabled: true
+      Speedmulti: 4.0
+      Only useable if zooming: false
+      Remove speed potion effect on zoom: true
+      No gravity on bullets: false
+      No gravity duration: 3
+    Orbitalstrike:
+      enabled: true
+      Match Limit: 3
+      Player Limit: 1
+  Shop:
+    enabled: true
+    Close Inventory Menu On Purchase: false
+    Admins bypass rank restrictions: false
+    Goods (amount-name-id-subid-price-rank):
+    - 10-Balls-332-0-10-0
+    - 50-Balls-332-0-50-0
+    - 100-Balls-332-0-100-0
+    - 1-Grenade Mark 2-341-0-15-1
+    - 1-Grenade-344-0-20-2
+    - 1-Concussion Nade-375-0-15-2
+    - 1-Flashbang-370-0-15-3
+    - 1-Rocket Launcher-356-0-20-3
+    - 1-Mine-390-0-10-4
+    - 1-Pumpgun-275-0-20-4
+    - 1-Speed-373-16482-20-5
+    - 1-Shotgun-382-0-20-5
+    - 1-Airstrike-280-0-80-6
+    - 1-Orbitalstrike-369-0-80-7
+    - 1-Turret-86-0-180-8
+    - 1-Sniper-398-0-80-9
