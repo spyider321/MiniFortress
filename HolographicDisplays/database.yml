@@ -95,8 +95,8 @@ plotsinfo:
   location: plots, -47.693, 68.200, -53.002
   lines:
   - '&a&oWelcome to &u&lPlots!'
-  - Note that these plots (should) contain in-progress server builds
-  - '&aClaim a plot with &6/plot auto'
+  - This is where server builds take place.
+  - '&dStaff, &aclaim a plot with &6/plot auto'
   - Want to be a builder? Then &6/apply
 pb1:
   location: minigames, -320.663, 5.739, -48.661
