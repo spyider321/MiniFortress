@@ -1,0 +1,120 @@
+version: 2.11.18
+schematics:
+  save_path: /var/www/schematics
+chunk-processor:
+  enabled: true
+  max-entities: 512
+  max-blockstates: 4096
+uuid:
+  read-from-disk: false
+claim:
+  max-auto-area: 4
+clear:
+  fastmode: false
+  auto:
+    enabled: false
+    days: 365
+    clear-interval-seconds: 120
+  check-disk: false
+  'on':
+    ban: false
+  keep-if-modified: -1
+max_plots: 127
+console:
+  color: true
+teleport:
+  on_login: false
+  delay: 0
+debug: true
+clusters:
+  enabled: false
+auto_update: false
+plotme-convert:
+  enabled: false
+  cache-uuids: false
+protection:
+  physics-listener:
+    enabled: false
+  tnt-listener:
+    enabled: false
+  piston:
+    falling-blocks: true
+confirmation:
+  unlink: true
+  delete: true
+  clear: true
+kill_road_mobs: true
+metrics: true
+cache:
+  permissions: false
+plotme-alias: false
+worldedit:
+  max-iterations: 1000
+  max-volume: 500000
+  blacklist:
+  - cs
+  - .s
+  - restore
+  - snapshot
+  - delchunks
+  - listchunks
+  require-selection-in-mask: true
+comments:
+  notifications:
+    enabled: false
+mob_pathfinding: false
+UUID:
+  force-lowercase: false
+  offline: false
+titles: false
+global_limit: false
+worlds:
+  plots:
+    road:
+      width: 7
+      height: 64
+      block: '5'
+    plot:
+      size: 100
+      floor:
+      - '2'
+      filling:
+      - '3'
+      height: 64
+      biome: FOREST
+      bedrock: true
+      create_signs: true
+      auto_merge: true
+    wall:
+      block: '44'
+      height: 64
+      filling: '1:0'
+      block_claimed: '44:1'
+    event:
+      spawn:
+        breeding: false
+        egg: false
+        custom: true
+      pvp: false
+      pve: false
+    economy:
+      use: false
+      prices:
+        claim: 100.0
+        sell: 75.0
+        merge: 100.0
+    home:
+      allow-nonmembers: false
+      default: side
+    world:
+      border: true
+    schematic:
+      file: 'null'
+      on_claim: false
+      specify_on_claim: false
+    limits:
+      max-members: 128
+    chat:
+      enabled: false
+    flags: {}
+    natural_mob_spawning: false

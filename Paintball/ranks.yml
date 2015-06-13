@@ -1,0 +1,155 @@
+Ranks:
+  Recruit:
+    Needed Points: 0
+    Prefix: '&6[&fRecruit&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 255
+        Green: 255
+        Blue: 255
+    Leggings: {}
+    Boots: {}
+  Private:
+    Needed Points: 25
+    Prefix: '&6[&7Private&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 192
+        Green: 192
+        Blue: 192
+    Leggings: {}
+    Boots: {}
+  Corporal:
+    Needed Points: 100
+    Prefix: '&6[&7Corporal&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 160
+        Green: 101
+        Blue: 64
+    Leggings: {}
+    Boots: {}
+  Sergeant:
+    Needed Points: 250
+    Prefix: '&6[&eSergeant&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 255
+        Green: 255
+        Blue: 0
+    Leggings: {}
+    Boots: {}
+  First Sergeant:
+    Needed Points: 500
+    Prefix: '&6[&dFirst Sergeant&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 255
+        Green: 165
+        Blue: 0
+    Leggings: {}
+    Boots: {}
+  Sergeant Major:
+    Needed Points: 750
+    Prefix: '&6[&5Sergeant Major&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 128
+        Green: 0
+        Blue: 128
+    Leggings: {}
+    Boots: {}
+  Lieutenant:
+    Needed Points: 1000
+    Prefix: '&6[&aLieutenant&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 0
+        Green: 128
+        Blue: 0
+    Leggings: {}
+    Boots: {}
+  Captain:
+    Needed Points: 5000
+    Prefix: '&6[&2Captain&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 0
+        Green: 128
+        Blue: 128
+    Leggings: {}
+    Boots: {}
+  Major:
+    Needed Points: 10000
+    Prefix: '&6[&3Major&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 0
+        Green: 0
+        Blue: 0
+    Leggings: {}
+    Boots: {}
+  Colonel:
+    Needed Points: 15000
+    Prefix: '&6[&0Colonel&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: IRON_CHESTPLATE
+    Leggings: {}
+    Boots: {}
+  General:
+    Needed Points: 25000
+    Prefix: '&6[&cGeneral&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: GOLD_CHESTPLATE
+    Leggings: {}
+    Boots: {}
+  Commander:
+    Needed Points: 35000
+    Prefix: '&6[&4Commander&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: DIAMOND_CHESTPLATE
+    Leggings: {}
+    Boots: {}
+  Master Chief:
+    Needed Points: 50000
+    Prefix: '&6[&4Master Chief&6] &r'
+    Helmet: {}
+    Chestplate:
+      Type: LEATHER_CHESTPLATE
+      Color:
+        Red: 102
+        Green: 127
+        Blue: 51
+    Leggings:
+      Type: LEATHER_LEGGINGS
+      Color:
+        Red: 127
+        Green: 204
+        Blue: 25
+    Boots:
+      Type: LEATHER_BOOTS
+      Color:
+        Red: 102
+        Green: 127
+        Blue: 51
