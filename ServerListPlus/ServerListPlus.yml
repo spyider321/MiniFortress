@@ -42,24 +42,31 @@ Default:
   - |-
     &aMini Fortress
     &7You may &6/apply
+  - |-
+    &aMini Fortress
+    &7We have a &6/radio
   Players:
     Hover:
     - |-
       &aMini Fortress
-      &aCurrently &e&l%online% &aplayers are online
+      &aThis is where we display news about the server
 Personalized:
   Description:
   - |-
     &aMini Fortress &7|  &eHi &l%player%
-    &7Check the forum &btechfortress.boards.net
+    &aCheck the forum &btechfortress.boards.net
   - |-
-    &aA Mini Fortress &7|  &eHello, &l%player%!
-    &7We are on &bplug.dj/techfortress
+    &a Mini Fortress &7|  &eHello, &l%player%!
+    &aListen to our community &6/radio
+  - |-
+    &a Mini Fortress &7|  &eHello, &l%player%!
+    &aWe now have mumble! See &6/mumble &afor info
   Players:
     Hover:
     - |-
-      &aWelcome back, &l%player%&a!
-      &aCurrently &e&l%online% &aplayers are online
+      &aHeyo, &l%player%&a!
+      &aWe added &6/mumble &aand blockhunt
+      &dBuilders, &abuild some blockhunt arenas!
   Favicon:
     Heads:
     - '%player%'
@@ -78,7 +85,7 @@ PlayerTracking:
   Enabled: true
   Storage: !JSONStorage
     Enabled: true
-    SaveDelay: 5m
+    SaveDelay: 60m
 Samples:
   Multiple: false
   DynamicPlayers: false
