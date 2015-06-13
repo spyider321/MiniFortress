@@ -1,0 +1,56 @@
+# 
+# Whether the plugin should check for updates
+
+saveInventory: true
+requireEmptyInventory: false
+treasurehunt:
+  waittime: 60
+  findtime: 60
+multiplayer:
+  waitforplayers: 10
+  startcountdown: 5
+  timerMessageInterval:
+  - 900
+  - 600
+  - 300
+  - 60
+  - 30
+  - 10
+  - 5
+  - 4
+  - 3
+  - 2
+  - 1
+  floordegenerator:
+    time: 30
+  ctf:
+    flagrespawntime: 60
+disabledCommands:
+- home
+- warp
+- spawn
+broadcastCompletion: true
+playSounds: true
+regeneration:
+  maxDelay: 10
+updateChecker: true
+lang: en_US
+use-sql: false
+sql-host: localhost
+sql-port: 3306
+sql-database: database
+sql-username: root
+sql-password: root
+tool: BLAZE_ROD
+warnings: true
+outputCMDToFile: false
+minigames:
+- Spleef
+- testparkour
+- Spleef1
+- Ctf
+convert:
+  completion: true
+  inventories: true
+  checkpoints: true
+  sql: true
