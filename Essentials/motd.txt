@@ -1,0 +1,2 @@
+&ePlayers online:&c {ONLINE}
+&dYou may &6/apply &dfor staff.
