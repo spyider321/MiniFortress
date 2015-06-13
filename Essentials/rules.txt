@@ -1,0 +1,4 @@
+&cNo spamming, advertising, profanity, obscenity, or vulgarity.
+&cYou must not significantly impact server performance
+&6/report &aall working exploits you find or know.
+&aOtherwise, enjoy Mini Fortress!
