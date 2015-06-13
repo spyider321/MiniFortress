@@ -1,0 +1,17 @@
+Announce-Incaps: true
+Announce-Incaps-range: 32
+Throw-revive: true
+Use-percentage: true
+Mob-invisibility: false
+Heal-cancels-cooldown: false
+Kill-revives-player: false
+Damage-reduction: 0.5
+Revive-health: 0.3
+Revive-health-flat: 6.0
+Revive-cooldown: 2.0
+Incapped-health: 20.0
+Incapped-health-decay: 3
+Over-kill: -20
+Death-stats: 55
+Revived-stats: 34
+Crawl-speed: 0.01
