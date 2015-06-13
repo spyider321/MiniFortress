@@ -1,0 +1,116 @@
+apply1:
+  location: world, 105.505, 13.200, 102.145
+  lines:
+  - So u wot to apply m8?
+  - Then follow the &eyellow brick road
+apply2:
+  location: world, 119.567, 13.200, 101.760
+  lines:
+  - 'First, a quick rule:'
+  - '&cDo &lNOT &r&cask about your application!'
+apply3:
+  location: world, 132.382, 14.200, 102.049
+  lines:
+  - Ready to apply? Type &6/applynow
+  - Click the link that appears in chat
+apply4:
+  location: world, 132.408, 13.200, 102.028
+  lines:
+  - It will take around 1-3 days to
+  - process your application - check the forum
+  - regularly in case we have questions!
+apply5:
+  location: world, 141.446, 14.000, 102.907
+  lines:
+  - Why no book and quill? Books can get lost
+  - easily, and are rather inefficient to manage.
+  - Also, everyone who applies with a book don't
+  - remain on the server very long.
+  - '&aAll staff info is on the forum.'
+  - '&cNO BOOKS WILL BE GIVEN'
+apocalypse:
+  location: apocalypse, 0.808, 106.200, 4.729
+  lines:
+  - Burn in day, freeze at night
+  - Get underground to safety
+  - Use a leather &6jacket
+warp3:
+  location: spawn, 1.442, 6.155, 87.793
+  lines:
+  - '&bMinigames &cworld!'
+complain:
+  location: world, 131.426, 68.000, 93.939
+  lines:
+  - Complaints will be heard on the
+  - second Tuesday of next week
+  - '&cNo appointment necessary'
+  - '&cFirst come first served'
+faction:
+  location: world, 125.057, 71.529, 105.024
+  lines:
+  - Conquer the map! We've tweaked Factions
+  - to encourage land claiming and conquering!
+  - Go out there and conquer your enemies!
+  - '&aPower per hour: &f42'
+  - '&cPower lost per death: &f133.7'
+  - '&bMaximum power level: &f9000'
+warpmall:
+  location: spawn, -9.467, 6.155, 87.634
+  lines:
+  - Mall-in-progress
+  - Almost done!
+factionswarp:
+  location: spawn, 12.368, 6.155, 87.746
+  lines:
+  - Factions
+creative:
+  location: build, 26.965, 6.155, 28.561
+  lines:
+  - If you want to just build without applying, we have a server
+  - just for that. IP coming soon!
+plots_info_1:
+  location: PlotWorld, -18.979, 67.000, 14.614
+  lines:
+  - '&u&lWelcome to plots!'
+  - '&c&o/Plotme Help &a&lto get started!'
+spawn_info_1:
+  location: spawn, -0.536, 5.200, 52.599
+  lines:
+  - '&u&lWelcome to &c&oMini Fortress!'
+  - '&aYou may &e/apply &afor staff.'
+  - '&f&lFollow all &c&o/rules &f&land have fun!'
+  - '&7Need to report someone or found a bug? &4&o/report'
+  - '&6Players online: &a{online} &6/ &a{max_players}'
+minigameslobby01:
+  location: minigames, -16.610, 7.200, 337.994
+  lines:
+  - '&u&lWelcome to MiniGames!'
+  - '&f(&c&oTemp. spawn untill we build a hub.&f)'
+  - '&aEnjoy!'
+plotsinfo_entrance:
+  location: PlotWorld, -122.232, 67.200, 87.982
+  lines:
+  - '&u&lPlotme information'
+plotsinfo:
+  location: plots, -47.693, 68.200, -53.002
+  lines:
+  - '&a&oWelcome to &u&lPlots!'
+  - Note that these plots (should) contain in-progress server builds
+  - '&aClaim a plot with &6/plot auto'
+  - Want to be a builder? Then &6/apply
+pb1:
+  location: minigames, -320.663, 5.739, -48.661
+  lines:
+  - '&fWelcome to... &4Paint&1ball!'
+pbhelp:
+  location: minigames, -317.700, 7.956, -57.728
+  lines:
+  - '&bHelp'
+pbshw:
+  location: minigames, -310.104, 6.852, -52.675
+  lines:
+  - '&fThis amazing paintball game n'' map was made by &bSpyider321 and tylerboyer360amn'
+paintball:
+  location: minigames, -19.893, 5.200, 344.616
+  lines:
+  - Paintball (WIP)
