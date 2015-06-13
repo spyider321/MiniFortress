@@ -1,0 +1,8 @@
+useVault: true
+shop:
+  id: 388
+  world:
+  - quake
+ScoreBoard:
+  world:
+  - quake
