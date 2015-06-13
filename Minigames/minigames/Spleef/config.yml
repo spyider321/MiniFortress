@@ -1,0 +1,15 @@
+Spleef:
+  type: MULTIPLAYER
+  blocksdrop: false
+  objective: lms
+  startpos:
+    '0':
+      x: 49.10792271565753
+      y: 25.403497001636673
+      z: -38.54042112279181
+      world: minigames
+      yaw: -270.74884
+      pitch: 40.80006
+  itempickup: false
+  flags: []
+  startWaitTime: 10
