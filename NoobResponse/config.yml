@@ -1,0 +1,22 @@
+# # #############################################################################################################
+# # NoobResponse config file - http://dev.bukkit.org/server-mods/NoobResponse
+# # 
+# # chat_tag - The name that will appear in chat when the bot responds to something
+# # chat_name - The name that will appear on kick messages, eg: Player1 was kicked by NoobResponse
+# # alwaystoall - Whether or not the message will always be sent to all players
+# # updatecheck - Should NoobResponse update automatically?
+# # allowedchars - Regex string of allowed characters
+# # intelligent-cancel - If chat messages are automatically cancelled if player is kicked, banned, killed etc.
+# # notify-error - If NoobResponse will log warnings when a response is triggered that contains an invalid setting
+# #                This could be messy for large servers.
+# # use-display-names - Changes whether the plugin uses player's display names rather than their actual usernames
+# # ##############################################################################################################
+settings:
+  chat_tag: 'U_WOT_OP: '
+  chat_name: TechBot
+  alwaystoall: false
+  updatecheck: true
+  allowedchars: A-Za-z0-9
+  intelligent-cancel: true
+  notify-error: false
+  use-display-names: false
