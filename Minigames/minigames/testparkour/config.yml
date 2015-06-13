@@ -1,0 +1,19 @@
+testparkour:
+  type: MULTIPLAYER
+  endpos:
+    x: 235.66823304227222
+    y: 12.0
+    z: 340.5431141375624
+    world: minigames
+    yaw: 255.00806
+    pitch: 65.63752
+  startpos:
+    '0':
+      x: 210.67789473105105
+      y: 5.0
+      z: 319.2275497277421
+      world: minigames
+      yaw: 282.02225
+      pitch: 45.08681
+  timer: 150
+  flags: []

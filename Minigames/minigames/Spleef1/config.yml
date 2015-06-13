@@ -1,0 +1,38 @@
+Spleef1:
+  endpos:
+    x: 75.53525868206016
+    y: 4.0
+    z: -29.429132746535842
+    world: minigames
+    yaw: -358.333
+    pitch: 4.6500177
+  startpos:
+    '0':
+      x: 73.49199347364271
+      y: 10.0
+      z: -14.442563627277675
+      world: minigames
+      yaw: -315.73438
+      pitch: 90.0
+  spectatorpos:
+    x: 57.42089741067411
+    y: 6.0
+    z: -14.387133088831742
+    world: minigames
+    yaw: -269.98193
+    pitch: 90.0
+  lobbypos:
+    x: 57.34210621718819
+    y: 6.0
+    z: -14.518218813215324
+    world: minigames
+    yaw: -287.23193
+    pitch: 90.0
+  flags: []
+  quitpos:
+    x: 75.53525868206016
+    y: 4.0
+    z: -29.429132746535842
+    world: minigames
+    yaw: -358.333
+    pitch: 4.6500177
