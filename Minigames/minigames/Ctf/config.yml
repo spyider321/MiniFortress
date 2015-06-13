@@ -1,0 +1,72 @@
+Ctf:
+  type: MULTIPLAYER
+  enabled: true
+  endpos:
+    x: -494.41388984512577
+    y: 4.0
+    z: 384.50506104175867
+    world: minigames
+    yaw: 92.37842
+    pitch: 18.14995
+  startpos:
+    '0':
+      x: -468.9051676377397
+      y: 36.855056905567906
+      z: 474.98799819749615
+      world: minigames
+      yaw: 149.20801
+      pitch: 35.700165
+    '1':
+      x: -498.69999998807907
+      y: 4.0
+      z: 498.69999998807907
+      world: minigames
+      yaw: 224.52979
+      pitch: 90.0
+    '2':
+      x: -388.30000001192093
+      y: 4.0
+      z: 388.30000001192093
+      world: minigames
+      yaw: 46.628418
+      pitch: 90.0
+    '3':
+      x: -388.30000001192093
+      y: 4.0
+      z: 388.30000001192093
+      world: minigames
+      yaw: 47.081055
+      pitch: 90.0
+    '4':
+      x: -498.69999998807907
+      y: 4.0
+      z: 498.69999998807907
+      world: minigames
+      yaw: 226.48486
+      pitch: 18.149992
+    '5':
+      x: -498.69999998807907
+      y: 4.0
+      z: 498.69999998807907
+      world: minigames
+      yaw: 227.38525
+      pitch: 85.34999
+  maxplayers: 10
+  timer: 600
+  lobbypos:
+    x: -496.4432597823005
+    y: 4.0
+    z: 384.111648105195
+    world: minigames
+    yaw: 47.237946
+    pitch: 13.049957
+  latejoin: true
+  flags: []
+  quitpos:
+    x: -494.41388984512577
+    y: 4.0
+    z: 384.49635309422615
+    world: minigames
+    yaw: 88.92578
+    pitch: 87.899956
+  startWaitTime: 60
