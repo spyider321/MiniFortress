@@ -271,25 +271,25 @@ allow_arrow_damage: true
 # Note Air is for an empty hand
 # A list of valid materials are found here http://jd.bukkit.org/rb/apidocs/org/bukkit/Material.html
 Weapons:
-  WOOD_SWORD:
-    Damage: 5.0
-  AIR:
-    Damage: 1.0
-  GOLD_SWORD:
-    Damage: 5.0
-  IRON_SWORD:
-    Damage: 7.0
   IRON_AXE:
     Damage: 6.0
-  STONE_AXE:
-    Damage: 5.0
+  IRON_SWORD:
+    Damage: 7.0
   GOLD_AXE:
     Damage: 4.0
+  WOOD_SWORD:
+    Damage: 5.0
   DIAMOND_AXE:
     Damage: 7.0
-  WOOD_AXE:
-    Damage: 4.0
+  STONE_AXE:
+    Damage: 5.0
+  GOLD_SWORD:
+    Damage: 5.0
   STONE_SWORD:
     Damage: 6.0
+  WOOD_AXE:
+    Damage: 4.0
+  AIR:
+    Damage: 1.0
   DIAMOND_SWORD:
     Damage: 8.0
