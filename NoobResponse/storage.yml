@@ -102,21 +102,6 @@ triggers:
     action-param: ''
     trigger-type: keyword
     minimum-match-threshold: 0
-  howop:
-    response: '&aYou want to apply for staff? Type &6/apply'
-    included-keywords:
-    - how
-    - i
-    - op
-    excluded-keywords: []
-    match-phrase: ''
-    cancel-message: false
-    public-response: true
-    text-response: false
-    action: nothing
-    action-param: ''
-    trigger-type: keyword
-    minimum-match-threshold: 0
   canadmin:
     response: '&aYou want to apply for staff? Type &6/apply'
     included-keywords:
@@ -132,26 +117,26 @@ triggers:
     action-param: ''
     trigger-type: keyword
     minimum-match-threshold: 0
+  howop:
+    response: '&aYou want to apply for staff? Type &6/apply'
+    included-keywords:
+    - how
+    - i
+    - op
+    excluded-keywords: []
+    match-phrase: ''
+    cancel-message: false
+    public-response: true
+    text-response: false
+    action: nothing
+    action-param: ''
+    trigger-type: keyword
+    minimum-match-threshold: 0
   howapply:
     response: '&aYou want to apply for staff? Type &6/apply'
     included-keywords:
     - i
     - apply
-    excluded-keywords: []
-    match-phrase: ''
-    cancel-message: false
-    public-response: true
-    text-response: true
-    action: nothing
-    action-param: ''
-    trigger-type: keyword
-    minimum-match-threshold: 0
-  isownerhere:
-    response: '&aYou want to apply for staff? Type &6/apply'
-    included-keywords:
-    - is
-    - owner
-    - online
     excluded-keywords: []
     match-phrase: ''
     cancel-message: false
@@ -176,12 +161,12 @@ triggers:
     action-param: ''
     trigger-type: keyword
     minimum-match-threshold: 0
-  howstaff:
+  isownerhere:
     response: '&aYou want to apply for staff? Type &6/apply'
     included-keywords:
-    - how
-    - i
-    - staff
+    - is
+    - owner
+    - online
     excluded-keywords: []
     match-phrase: ''
     cancel-message: false
@@ -201,6 +186,21 @@ triggers:
     cancel-message: false
     public-response: true
     text-response: false
+    action: nothing
+    action-param: ''
+    trigger-type: keyword
+    minimum-match-threshold: 0
+  howstaff:
+    response: '&aYou want to apply for staff? Type &6/apply'
+    included-keywords:
+    - how
+    - i
+    - staff
+    excluded-keywords: []
+    match-phrase: ''
+    cancel-message: false
+    public-response: true
+    text-response: true
     action: nothing
     action-param: ''
     trigger-type: keyword
