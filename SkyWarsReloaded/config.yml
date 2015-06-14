@@ -27,7 +27,7 @@
 gameSettings:
   signJoinMode: true
   signJoinMaterial: wool
-  pressurePlateJoin: false
+  pressurePlateJoin: true
   allowSpectating: true
   enableLogFilter: true
   useExternalEconomy: false
