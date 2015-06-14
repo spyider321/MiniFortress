@@ -102,21 +102,6 @@ triggers:
     action-param: ''
     trigger-type: keyword
     minimum-match-threshold: 0
-  canadmin:
-    response: '&aYou want to apply for staff? Type &6/apply'
-    included-keywords:
-    - can
-    - i
-    - admin
-    excluded-keywords: []
-    match-phrase: ''
-    cancel-message: false
-    public-response: true
-    text-response: true
-    action: nothing
-    action-param: ''
-    trigger-type: keyword
-    minimum-match-threshold: 0
   howop:
     response: '&aYou want to apply for staff? Type &6/apply'
     included-keywords:
@@ -132,11 +117,12 @@ triggers:
     action-param: ''
     trigger-type: keyword
     minimum-match-threshold: 0
-  howapply:
+  canadmin:
     response: '&aYou want to apply for staff? Type &6/apply'
     included-keywords:
+    - can
     - i
-    - apply
+    - admin
     excluded-keywords: []
     match-phrase: ''
     cancel-message: false
@@ -146,12 +132,11 @@ triggers:
     action-param: ''
     trigger-type: keyword
     minimum-match-threshold: 0
-  canstaff:
+  howapply:
     response: '&aYou want to apply for staff? Type &6/apply'
     included-keywords:
-    - can
     - i
-    - staff
+    - apply
     excluded-keywords: []
     match-phrase: ''
     cancel-message: false
@@ -176,16 +161,17 @@ triggers:
     action-param: ''
     trigger-type: keyword
     minimum-match-threshold: 0
-  whereapply:
+  canstaff:
     response: '&aYou want to apply for staff? Type &6/apply'
     included-keywords:
-    - where
-    - apply
+    - can
+    - i
+    - staff
     excluded-keywords: []
     match-phrase: ''
     cancel-message: false
     public-response: true
-    text-response: false
+    text-response: true
     action: nothing
     action-param: ''
     trigger-type: keyword
@@ -201,6 +187,20 @@ triggers:
     cancel-message: false
     public-response: true
     text-response: true
+    action: nothing
+    action-param: ''
+    trigger-type: keyword
+    minimum-match-threshold: 0
+  whereapply:
+    response: '&aYou want to apply for staff? Type &6/apply'
+    included-keywords:
+    - where
+    - apply
+    excluded-keywords: []
+    match-phrase: ''
+    cancel-message: false
+    public-response: true
+    text-response: false
     action: nothing
     action-param: ''
     trigger-type: keyword
