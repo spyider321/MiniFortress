@@ -25,7 +25,7 @@
 #  addScorePrefix: true		//When set to true, a score prefix is added to player chat. 
 #  useExternalChat: false	//When set to true, the plugin will use the external chat plugin.
 gameSettings:
-  signJoinMode: true
+  signJoinMode: false
   signJoinMaterial: wool
   pressurePlateJoin: true
   allowSpectating: true
