@@ -63,13 +63,15 @@ Personalized:
     &aWe now have mumble! See &6/mumble &afor info
   - |-
     &a Mini Fortress &7|  &eHello, &l%player%!
-    &aDid you know you can hover over the player count for the latest server news?
+    &aDid you know you can hover over the player count for server news?
   Players:
     Hover:
     - |-
       &aHeyo, &l%player%&a!
       &aWe added &6/mumble &aand blockhunt
       &dBuilders, &abuild some blockhunt arenas!
+      &aOther added stuff:
+      &aSkywars
   Favicon:
     Heads:
     - '%player%'
