@@ -16,7 +16,7 @@ world-blacklist:
 - tf2
 - quake
 - plots
-chance: 2
+chance: 75
 events:
   Cooked Food: true
   Golden Apples: true
