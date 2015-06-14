@@ -158,3 +158,10 @@ bungeeMode:
   enabled: false
   bungeeServerName: skywars
   lobbyServer: lobby
+spawn:
+  world: skyspawn
+  x: 1
+  y: 10
+  z: 0
+  yaw: -0.110076904
+  pitch: 82.57076
