@@ -12,6 +12,6 @@ Revive-cooldown: 2.0
 Incapped-health: 20.0
 Incapped-health-decay: 3
 Over-kill: -20
-Death-stats: 55
-Revived-stats: 34
+Death-stats: 71
+Revived-stats: 39
 Crawl-speed: 0.01
