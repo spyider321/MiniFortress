@@ -43,5 +43,5 @@ Join our mumble server!
 &aMumble is like Skype, but optimized for gaming and group "calls."
 &aDownload Mumble: &b&nbit.ly/techmumble
 &7Server info:
-&7address: mumble-us.cleanvoice.ru
-&7port: 45332
+&7Address: mumble-us.cleanvoice.ru
+&7Port: 45332
