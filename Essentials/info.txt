@@ -38,3 +38,10 @@ Our community "radio:" &b&nhttp://plug.dj/techfortress
 #Staff
 An official listing of staff can be found here:
 &b&nbit.ly/pluginslist
+#Mumble
+Join our mumble server!
+&aMumble is like Skype, but optimized for gaming and group "calls."
+&aDownload Mumble: &b&nbit.ly/techmumble
+&7Server info:
+&7address: mumble-us.cleanvoice.ru
+&7port: 45332
