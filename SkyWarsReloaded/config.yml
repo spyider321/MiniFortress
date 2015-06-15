@@ -161,7 +161,7 @@ bungeeMode:
 spawn:
   world: skyspawn
   x: 1
-  y: 10
+  y: 6
   z: 0
-  yaw: -0.110076904
-  pitch: 82.57076
+  yaw: 359.44205
+  pitch: 25.487646
