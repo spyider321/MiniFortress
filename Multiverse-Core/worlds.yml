@@ -239,54 +239,6 @@ worlds:
     generator: 'null'
     playerLimit: '-1'
     allowFlight: 'true'
-  build:
-    ==: MVWorld
-    hidden: 'false'
-    alias: '&8Build'
-    color: WHITE
-    style: NORMAL
-    pvp: 'true'
-    scale: '1.0'
-    respawnWorld: ''
-    allowWeather: 'false'
-    difficulty: EASY
-    spawning:
-      ==: MVSpawnSettings
-      animals:
-        ==: MVSpawnSubSettings
-        spawn: 'false'
-        spawnrate: '-1'
-        exceptions: []
-      monsters:
-        ==: MVSpawnSubSettings
-        spawn: 'false'
-        spawnrate: '-1'
-        exceptions: []
-    entryfee:
-      ==: MVEntryFee
-      amount: '0.0'
-      currency: '-1'
-    hunger: 'true'
-    autoHeal: 'true'
-    adjustSpawn: 'true'
-    portalForm: ALL
-    gameMode: CREATIVE
-    keepSpawnInMemory: 'false'
-    spawnLocation:
-      ==: MVSpawnLocation
-      yaw: 0.5028478
-      pitch: 3.7490206
-      z: 22.503685525561593
-      y: 4.0
-      x: 26.5127887100287
-    autoLoad: 'true'
-    bedRespawn: 'true'
-    worldBlacklist: []
-    environment: NORMAL
-    seed: '-497076521243954916'
-    generator: 'null'
-    playerLimit: '-1'
-    allowFlight: 'true'
   tf2:
     ==: MVWorld
     hidden: 'false'
