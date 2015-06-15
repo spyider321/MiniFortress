@@ -1,2 +1,3 @@
+&aWelcome to Mini Fortress! See &6/info &ato get started.
 &ePlayers online:&c {ONLINE}
 &dYou may &6/apply &dfor staff.
