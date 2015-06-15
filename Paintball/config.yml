@@ -21,14 +21,14 @@ Paintball:
     Cash: 100
   Auto Lobby: false
   Auto Team: false
-  Points per Kill: 2
-  Points per Hit: 1
+  Points per Kill: 500
+  Points per Hit: 10
   Points per Team-Attack: -1
-  Points per Win: 5
+  Points per Win: 50000
   Points per Round: 1
-  Cash per Kill: 10
-  Cash per Hit: 0
-  Cash per Win: 10
+  Cash per Kill: 100
+  Cash per Hit: 25
+  Cash per Win: 10000
   Cash per Round: 0
   Vault Rewards:
     enabled: false
@@ -113,12 +113,12 @@ Paintball:
     enabled: true
     onSpawnChance: 5.0
     wishes: true
-    wishes text: '&cblablubbabc&5, &cAlphaX &5and &cthe server team &5are wishing
+    wishes text: '&4RoboMWM,&bSpyider321&fand&aTylerboyer360amn&5are wishing
       you a lot of fun!'
     wishes delay in minutes: 60
     gifts:
       '0':
-        message: Hope you have luck with these balls!
+        message: Use them wisely...
         id: 332
         subid: 0
         amount: 50
